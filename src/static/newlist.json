@@ -1,0 +1,22 @@
+[{
+    "title": "新闻标题1",
+    "content": "新闻内容1",
+    "author": "作者1",
+    "date": "2022-01-01",
+    "image": "https://example.com/image1.jpg"
+  },
+  {
+    "title": "新闻标题2",
+    "content": "新闻内容2",
+    "author": "作者2",
+    "date": "2022-01-02",
+    "image": "https://example.com/image2.jpg"
+  },
+  {
+    "title": "新闻标题3",
+    "content": "新闻内容3",
+    "author": "作者3",
+    "date": "2022-01-03",
+    "image": "https://example.com/image3.jpg"
+  }
+]

@@ -1,15 +1,24 @@
 <template>
-  <div class="app-container home">
-        <h1>欢迎使用三维园区管理系统</h1>
+  <div>
+    <div class="full-screen-box">
+      <Bodycontent />
+    </div>
   </div>
+
 </template>
 
-<script setup name="Index">
+<script setup>
+  import Bodycontent from '../components/bodycontent.vue'
 </script>
 
-<style scoped lang="scss">
-.home {
-  text-align: center;
-}
+<style lang="scss" scoped>
+  .full-screen-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
-
